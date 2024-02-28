@@ -1,0 +1,13 @@
+<h1> Hola usuario : {{usuario.nombre}}</h1>
+
+{{#each products}}
+<ul class="lista-productos">
+    <li><span>Id: </span>{{this.id}}</li>
+    <li><span>Title: </span>{{this.title}}</li>
+    <li><span>Desciption: </span>{{this.description}}</li>
+    <li><span>Price: </span>{{this.price}}</li>
+    <li><span>Stock: </span>{{this.stock}}</li>
+    <li><span>Category: </span>{{this.stock}}</li>
+</ul> 
+<hr>
+{{/each}}

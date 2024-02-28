@@ -1,0 +1,35 @@
+[
+  {
+    "id": "977743",
+    "title": "Producto_1",
+    "description": "producto",
+    "code": "0043",
+    "price": 900,
+    "status": true,
+    "stock": 15,
+    "category": "producto",
+    "thumbnails": []
+  },
+  {
+    "id": "658421",
+    "title": "Producto_2",
+    "description": "producto",
+    "code": "sdfdsf",
+    "price": 3000,
+    "status": true,
+    "stock": 15,
+    "category": "producto",
+    "thumbnails": []
+  },
+  {
+    "id": "633798",
+    "title": "Producto_3",
+    "description": "producto",
+    "code": "dfasdf",
+    "price": 3000,
+    "status": true,
+    "stock": 20,
+    "category": "producto",
+    "thumbnails": []
+  }
+]

@@ -1,0 +1,32 @@
+<h1> Nuestro listado de productos</h1>
+
+<div id="grid" class="grid-productos">
+</div>
+</div>
+
+
+<h1>Productos</h1>
+
+<div class="container-form">
+<form id="formulario" class="formulario">
+    <label for="title">Title </label>
+    <input id="title" type="text" placeholder="Ingrese el dato" name="title" required >
+    <label for="description">Description </label>
+    <input id="description" type="text" placeholder="Ingrese el dato" name="description" required>
+    <label for="code">Code </label>
+    <input id="code" type="text" placeholder="Ingrese el dato" name="code" required>
+    <label for="price">Price </label>
+    <input id="price" type="text" placeholder="Ingrese el dato" name="price" required>
+    <label for="stock">Stock </label>
+    <input id="stock" type="text" placeholder="Ingrese el dato" name="stock" required>
+    <label for="category">Category </label>
+    <input id="category" type="text" placeholder="Ingrese el dato" name="category" required>
+
+    <button type="submit">Enviar</button>
+    
+</form>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>
+{{!-- <form id="formulario" class="formulario" action="/api/products/realtimeproducts" method="post"> --}}
