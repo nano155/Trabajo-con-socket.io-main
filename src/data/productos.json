@@ -31,5 +31,38 @@
     "stock": 20,
     "category": "producto",
     "thumbnails": []
+  },
+  {
+    "id": "45a3688d-4f4e-4d30-a7aa-a03491f57746",
+    "title": "producto_4",
+    "description": "producto",
+    "code": "aaz48",
+    "price": 300,
+    "status": true,
+    "stock": 15,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "id": "38759586-7757-41d6-8d29-dfda114ab938",
+    "title": "producto_5",
+    "description": "producto",
+    "code": "aaz48",
+    "price": 300,
+    "status": true,
+    "stock": 15,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "id": "643866",
+    "title": "Producto_6",
+    "description": "producto",
+    "code": "10554",
+    "price": 900,
+    "status": true,
+    "stock": 15,
+    "category": "50",
+    "thumbnails": []
   }
 ]

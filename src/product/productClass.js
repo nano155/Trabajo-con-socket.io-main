@@ -3,7 +3,7 @@ import fs from 'fs';
 
 
 class Product {
-    constructor(id, title, description, code, category, price, stock, status = true, thumbnails=[]) {
+    constructor(title, description, code, category, price, stock, id, status = true, thumbnails=[]) {
         price = parseInt(price),
         stock = parseInt(stock)
         if (!title || !description || !code || !price || !stock || !category){

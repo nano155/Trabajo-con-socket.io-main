@@ -50,7 +50,6 @@ formulario.addEventListener('submit', (e) => {
         stock: formulario.querySelector('#stock').value,
         category: formulario.querySelector('#category').value,
     }
-    console.log(form);
     socket.emit('form', form)
     formulario.querySelector('#title').value = ''
     formulario.querySelector('#description').value = ''
@@ -78,5 +77,3 @@ socket.on('delete-product', data =>{
 })
 
 const numero = Math.floor(Math.random() * 999999).toString()
-
-console.log(typeof numero);

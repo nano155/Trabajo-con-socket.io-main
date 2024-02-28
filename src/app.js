@@ -42,7 +42,7 @@ socketServer.on('connection', async socket=>{
   socket.emit('products', getProductos)
   socket.on('form', async data=>{
     const { title, description, code, category, price, stock, id } = data
-    await productos.addProduct(id, title, description, code, category, price, stock)
+    await productos.addProduct(title, description, code, category, price, stock, id)
     const nuevosProductos = await productos.getProducts()
     
     socket.emit('form-add', nuevosProductos)

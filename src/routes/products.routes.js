@@ -44,6 +44,7 @@ router.post('/', async (req, res) => {
     if (!product.title || !product.description || !product.code || !product.price || !product.stock || !product.category) {
         return res.status(400).send({ status: "error", error: "incomplete values" })
     }
+    console.log(product);
     const { title, description, code, price, stock, category, status } = product
     const nuevoProducto = await productos.addProduct(title, description, code, category, price, stock, status);
 
